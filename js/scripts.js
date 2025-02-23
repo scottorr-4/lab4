@@ -84,13 +84,13 @@ function createMap() {
         })
         .then(function (json) {
             // Use the JSON data to create the geojson2 layer
-            geojson2 = L.geoJson(json, { 
+            geojson = L.geoJson(json, { 
                 style: style,
                 onEachFeature: onEachFeature
             }).addTo(map);
 
             // Add info control to map
-            info2.addTo(map);
+            info.addTo(map);
         })
         .catch(function (error) {
             console.error("Error loading the data: ", error);
