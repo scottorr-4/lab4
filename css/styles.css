@@ -1,4 +1,9 @@
-p{color: rgb(99, 87, 87); font-size: 40px; font-weight: bold; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+p{color: rgb(99, 87, 87);
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+ }
 
 #map {
     width: 100%;
