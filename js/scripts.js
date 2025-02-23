@@ -73,13 +73,10 @@ function createMap() {
     }
 
 
-
-
-    
+  
     
     // Add OSM base tile layer
-    L.tileLayer('mapbox://styles/scottorr4/cm7hztb5a003a01t2dcjbep4l', {
-        accesstoken: 'pk.eyJ1Ijoic2NvdHRvcnI0IiwiYSI6ImNtNnpkMTM5ODAzaXIya3Ezd3pxNGNlajEifQ.2E0ODTQx45I6VofWWc_B4w'
+    L.tileLayer('https://api.mapbox.com/styles/v1/scottorr4/cm7hztb5a003a01t2dcjbep4l/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2NvdHRvcnI0IiwiYSI6ImNtNnpkMTM5ODAzaXIya3Ezd3pxNGNlajEifQ.2E0ODTQx45I6VofWWc_B4w', {
     }).addTo(map);
 
     // Add GeoJSON layer to map with styling and event handlers
