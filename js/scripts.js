@@ -72,8 +72,13 @@ function createMap() {
         };
     }
 
+
+
+
+    
+    
     // Add OSM base tile layer
-    L.tileLayer('http://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    L.tileLayer('https://api.mapbox.com/styles/v1/scottorr4/cm7hztb5a003a01t2dcjbep4l/wmts?access_token=pk.eyJ1Ijoic2NvdHRvcnI0IiwiYSI6ImNtNnpkMTM5ODAzaXIya3Ezd3pxNGNlajEifQ.2E0ODTQx45I6VofWWc_B4w', {
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
     }).addTo(map);
 
