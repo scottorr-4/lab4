@@ -1,4 +1,4 @@
-// Map 2
+// Map
 
 var map, geojson;
 
