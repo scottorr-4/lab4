@@ -58,7 +58,7 @@ function onEachFeature(feature, layer) {
 // Function to create map
 function createMap() {
     map = L.map('map', {
-        center: [39.83, -98.58],
+        center: [38.83, -98.58],
         zoom: 5
     });
 
